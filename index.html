@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="Maxa">
+    <meta property="og:title" content="Maxa">
+    <meta property="og:description" content="Maxa">
+    <meta property="og:image" content="./img/og-image.jpg">
+    <meta property="og:url" content="#">
+    <meta property="og:type" content="website">
+    <link rel="preload" href="fonts/Maxa-Grotesk-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Maxa-Grotesk-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Loterie Maxa</title>
+  </head>
+  <body id="top-page" class="maxa-riksa">
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <!-- Navigace mobile -->
+      <div class="navigation-wrapper-mobile">
+        <div class="navigation-modify-container">
+          <div class="logo-mobile-inner">
+            <div class="logo-top">
+              <a href="https://www.maxa.cz/" target="_blank" rel="noopener">
+                <img src="./img/logo-maxa-orange.webp" width="100" height="34" alt="Logo Maxa">
+              </a>
+            </div>
+          </div>
+          <nav class="nav">
+            <button class="hamburger" aria-label="Otevřít menu">
+              <span class="svg-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="none"/>
+                  <line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+                  <line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+                  <line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+                </svg>
+              </span>
+              <span class="svg-menu-close" style="display: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="none"/>
+                  <line x1="200" y1="56" x2="56" y2="200" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+                  <line x1="200" y1="200" x2="56" y2="56" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+                </svg>
+              </span>
+            </button>
+            <ul class="menu">
+              <li>
+                <a class="menuItem" href="#">O PROJEKTU</a>
+              </li>
+              <li>
+                <a class="menuItem" href="#" target="_blank" rel="noopener">HARMONOGRAM</a>
+              </li>
+              <li>
+                <a class="menuItem orange-color" href="#" target="_blank" rel="noopener">VIDEA Z MĚST</a>
+              </li>
+              <li>
+                <a class="menuItem orange-color" href="#" target="_blank" rel="noopener">FAQ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Navigace desktop -->
+      <div id="navbar" class="navigation-wrapper-desktop navbar-scrolled">
+        <div class="container">
+          <div class="navigation-modify-container">
+            <div class="logo-top">
+              <a href="https://www.maxa.cz/" target="_blank" rel="noopener">
+                <img src="./img/logo-maxa-orange.webp" width="150" height="34" alt="Logo Maxa">
+              </a>
+            </div>
+            <nav>
+              <ul>
+                <li>
+                  <a href="#onerepublic">O PROJEKTU</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener">HARMONOGRAM</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener">VIDEA Z MĚST</a>
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener">FAQ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN CONTENT -->
+    <main class="site-main">
+
+      <!-- HERO BANNER SECTION -->
+      <section class="section hero-banner">
+        <div class="hero-container container">
+          <!-- Levá textová část -->
+          <div class="hero-content">
+            <h1 class="hero-title">
+              <span class="title-top">Maxa Rikša</span>
+              <span class="title-highlight">štěstí</span>
+            </h1>
+            <p class="hero-subtitle">A.N.D.U.L.A <br> VYRÁŽÍ DO ULIC</p>
+            <p class="hero-text">
+              Přijďte za zážitkem, zkuste své štěstí a užijte si jízdu s&nbsp;Andulou!
+            </p>
+          </div>
+          <!-- Pravá obrazová část -->
+          <div class="hero-image-wrapper">
+            <img src="./img/andula-riksa-stesti.png" alt="Andula v Maxa rikši štěstí" class="hero-img">
+          </div>
+        </div>
+      </section>
+
+      <!-- ROADSHOW SECTION -->
+      <section class="section roadshow-section">
+        <div class="roadshow-container container">
+          <h2 class="roadshow-title">Harmonogram Roadshow</h2>
+          
+          <div class="roadshow-grid">
+            <!-- Město 1 -->
+            <div class="roadshow-card">
+              <div class="card-image-wrapper">
+                <img src="./img/harmonogram-hradec.png" alt="Plzeň" class="card-img">
+              </div>
+              <div class="card-content">
+                <h3 class="card-city">Plzeň</h3>
+                <p class="card-date">
+                  <span class="pin-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#FFB233"/>
+                      <circle cx="12" cy="9" r="2.5" fill="#33007B"/>
+                    </svg>
+                  </span> 13. 9.
+                </p>
+              </div>
+            </div>
+
+            <!-- Město 2 -->
+            <div class="roadshow-card">
+              <div class="card-image-wrapper">
+                <img src="./img/harmonogram-hradec.png" alt="Pardubice" class="card-img">
+              </div>
+              <div class="card-content">
+                <h3 class="card-city">Pardubice</h3>
+                <p class="card-date">
+                  <span class="pin-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#FFB233"/>
+                      <circle cx="12" cy="9" r="2.5" fill="#33007B"/>
+                    </svg>
+                  </span> 20. 9.
+                </p>
+              </div>
+            </div>
+
+            <!-- Město 3 -->
+            <div class="roadshow-card">
+              <div class="card-image-wrapper">
+                <img src="./img/harmonogram-hradec.png" alt="Hradec Králové" class="card-img">
+              </div>
+              <div class="card-content">
+                <h3 class="card-city">Hradec Králové</h3>
+                <p class="card-date">
+                  <span class="pin-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#FFB233"/>
+                      <circle cx="12" cy="9" r="2.5" fill="#33007B"/>
+                    </svg>
+                  </span> 27. 9.
+                </p>
+              </div>
+            </div>
+
+            <!-- Město 4 -->
+            <div class="roadshow-card">
+              <div class="card-image-wrapper">
+                <img src="./img/harmonogram-hradec.png" alt="Ostrava" class="card-img">
+              </div>
+              <div class="card-content">
+                <h3 class="card-city">Ostrava</h3>
+                <p class="card-date">
+                  <span class="pin-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#FFB233"/>
+                      <circle cx="12" cy="9" r="2.5" fill="#33007B"/>
+                    </svg>
+                  </span> 4. 10.
+                </p>
+              </div>
+            </div>
+
+            <!-- Město 5 -->
+            <div class="roadshow-card">
+              <div class="card-image-wrapper">
+                <img src="./img/harmonogram-hradec.png" alt="Brno" class="card-img">
+              </div>
+              <div class="card-content">
+                <h3 class="card-city">Blno &#128522</h3>
+                <p class="card-date">
+                  <span class="pin-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#FFB233"/>
+                      <circle cx="12" cy="9" r="2.5" fill="#33007B"/>
+                    </svg>
+                  </span> 11. 10.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES SECTION -->
+      <section class="section features-section">
+        <div class="features-container container">
+          <h2 class="features-title">Na co se můžete těšit?</h2>
+          
+          <div class="features-grid">
+            <!-- Karta 1 -->
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <img src="./img/riksa-ikona.png" alt="Rikša" class="feature-icon">
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-heading">Adrenalinová jízda v rikše</h3>
+                <p class="feature-text">Plná zábavných otázek</p>
+              </div>
+            </div>
+
+            <!-- Karta 2 -->
+            <div class="feature-card">
+              <div class="feature-icon-wrapper">
+                <img src="./img/mince-ikona.png" alt="Mince" class="feature-icon">
+              </div>
+              <div class="feature-content">
+                <h3 class="feature-heading">Možnost vyhrát až</h3>
+                <p class="feature-highlight">30 000 káček</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIDEOS SECTION -->
+      <section class="section videos-section">
+        <div class="videos-container container">
+          <h2 class="videos-title">Série videí z 5ti měst</h2>
+          
+          <div class="videos-grid">
+            <!-- Video 1: Plzeň -->
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/VOPCE_ID_TVÉ_ID" title="Plzeň" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-label">Plzeň</div>
+            </div>
+
+            <!-- Video 2: Pardubice -->
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/VOPCE_ID_TVÉ_ID" title="Pardubice" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-label">Pardubice</div>
+            </div>
+
+            <!-- Video 3: Hradec Králové -->
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/VOPCE_ID_TVÉ_ID" title="Hradec Králové" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-label">Hradec Králové</div>
+            </div>
+
+            <!-- Video 4: Ostrava -->
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/VOPCE_ID_TVÉ_ID" title="Ostrava" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-label">Ostrava</div>
+            </div>
+
+            <!-- Video 5: Brno -->
+            <div class="video-card">
+              <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/VOPCE_ID_TVÉ_ID" title="Brno" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="video-label">Brno</div>
+            </div>
+          </div>
+
+          <div class="videos-cta-wrapper">
+            <a href="#sledujte" class="videos-cta-btn">Sledujte naši roadshow</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <!-- MAIN CONTENT END -->
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section">
+      <div class="footer-container container">
+        <div class="footer-content">
+          <!-- Logo Maxa -->
+          <div class="footer-logo-wrapper">
+            <a href="https://www.maxa.cz/" target="_blank" rel="noopener">
+              <img class="footer-logo" src="./img/logo-maxa-orange.webp" width="150" height="51" alt="Logo Maxa" loading="lazy">
+            </a>
+          </div>
+          <ul class="footer-nav">
+            <li>
+              <a href="#pravidla" class="footer-link">Pravidla soutěže</a>
+              <a href="#" id="open_preferences_center" class="footer-link bingo-preferences-center">Nastavení soukromí</a>
+            </li>
+          </ul>
+          <div class="footer-warning">
+            <div class="text-warning">
+              <img class="warning-img" src="./img/veta-18.webp" width="34" height="30" alt="Varování" loading="lazy">
+              <p>Ministerstvo financí varuje:<br>Účastí na&nbsp;hazardní hře může vzniknout závislost!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="js/index.js" defer></script>
+  </body>
+</html>
