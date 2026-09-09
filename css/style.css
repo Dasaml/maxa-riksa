@@ -51,7 +51,6 @@ body.maxa-riksa {
 	line-height: 1.2;
 	text-transform: uppercase;
 	text-align: center;
-	text-shadow: 0 6px 4px #000000;
 	margin: 0 0 10px;
 }
 .maxa-riksa .title-h3 {
@@ -126,44 +125,6 @@ body.maxa-riksa {
 }
 .maxa-riksa .btn-button:hover {
 	background-color: #FFB233e6;
-}
-.maxa-riksa .bg-orange {
-	background-color: #FFB233;
-}
-.maxa-riksa .bg-violet-teal {
-background: #00CCCC;
-background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40%);
-}
-.maxa-riksa .bg-violet {
-	background-color: #6000bf;
-}
-.maxa-riksa .bg-teal {
-	background-color: #00b2b2;
-}
-.maxa-riksa .orange-color {
-	color: #FFB233;
-}
-.maxa-riksa .teal-color {
-	color: #00cccc;
-}
-.maxa-riksa .violet-color {
-	color: #6000bf;
-}
-.maxa-riksa .white-color {
-	color: #fff;
-}
-.maxa-riksa .strong {
-	font-weight: 700;
-}
-.maxa-riksa .img-wh {
-	width: 100%;
-	height: auto;
-}
-.maxa-riksa .py-4 {
-	padding: 2em 0;
-}
-.maxa-riksa .pt-2 {
-	padding-top: 1em;
 }
 .container {
 	width: 90%;
@@ -271,7 +232,7 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 	height: auto;
 	width: 100%;
 	z-index: 99;
-	background-color: #502983;
+	background-color: #6000BF;
 }
 .maxa-riksa .navigation-wrapper-mobile .navigation-modify-container {
 	display: -webkit-box;
@@ -438,7 +399,6 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   position: relative;
   color: #ffffff;
   padding: 0;
-  overflow: hidden;
 }
 
 .maxa-riksa .hero-container {
@@ -448,15 +408,17 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   background-repeat: no-repeat;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
   text-align: center;
-  gap: 30px;
+  gap: 20px;
   position: relative;
 }
 
 .maxa-riksa .hero-container.container {
 	width: 100%;
+	min-height: 175px;
 }
 
 .maxa-riksa .hero-content {
@@ -464,11 +426,9 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background: linear-gradient(to bottom, rgba(51, 0, 123, 0.99) 0%, rgba(51, 0, 123, 0.80) 95%, rgba(51, 0, 123, 0) 100%);
-  padding: 50px 20px 0 20px;
+  padding: 30px 0 0 10px;
   z-index: 2;
   box-sizing: border-box;
-  width: 100%;
 }
 
 .maxa-riksa .hero-title {
@@ -483,18 +443,6 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   transform: rotate(-2deg);
   position: relative;
   z-index: 1;
-}
-.maxa-riksa .hero-title::before {
-  content: '';
-  position: absolute;
-  top: -20px;
-    bottom: -5px;
-    left: -15px;
-    right: -30px;
-  background-image: url('../img/zluty-stetec-top-banner.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
 }
 
 .maxa-riksa .title-top {
@@ -528,25 +476,162 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 }
 
 .maxa-riksa .hero-image-wrapper {
-  position: static;
-}
-
-.maxa-riksa .hero-img {
+		display: flex;
+		justify-content: flex-end;
+	}
+.maxa-riksa .hero-img-1,
+.maxa-riksa .hero-img-2 {
   width: 100%;
   height: auto;
   display: block;
   object-fit: contain;
 }
+.maxa-riksa .hero-img-1 {
+	width: 120px;
+	margin: 0;
+}
+.maxa-riksa .hero-img-2 {
+	width: 165px;
+}
+
+.maxa-riksa .tour-container {
+	background-color: #00bcd4;
+	width: 100%;
+}
+.maxa-riksa .tour-section {
+    padding: 0;
+    text-align: center;
+}
+
+.maxa-riksa .tour-section .tour-section-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    color: #33007B;
+    padding: 40px 15px;
+}
+
+.maxa-riksa .tour-section .title-h2 {
+    color: #6000BF;
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.maxa-riksa .tour-section p {
+		text-align: center;
+    color: #6000BF;
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 900px;
+}
+
+.maxa-riksa .tour-section a {
+    color: #6000BF;
+    text-decoration: underline;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+.maxa-riksa .tour-section a:hover {
+    opacity: 0.8;
+}
+
+.maxa-riksa .tour-section .tour-content-title {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.2;
+}
+
+.maxa-riksa .riksha-banner-section {
+    padding: 40px 0;
+    background-color: transparent;
+}
+
+.maxa-riksa .riksha-banner-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #33007B 0%, #c500ff 100%);
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.maxa-riksa .riksha-banner-section .riksha-banner-title {
+	position: relative;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 30px;
+    z-index: 1;
+}
+
+.maxa-riksa .riksha-banner-image {
+    width: 100%;
+}
+
+.maxa-riksa .riksha-banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.maxa-riksa .riksha-banner-content {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+
+.maxa-riksa .riksha-banner-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.maxa-riksa .riksha-banner-icon-wrap {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 0, 123, 0.4);
+}
+
+.maxa-riksa .riksha-banner-icon-wrap img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.maxa-riksa .riksha-banner-item p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+}
 
 .maxa-riksa .roadshow-container {
-  margin: 35px auto 60px;
+  margin: 0 auto 30px;
   position: relative;
-  max-width: 1150px;
   padding: 0 0 30px;
-  background: #8B27A9;
-  border: 2px solid #8B27A9;
-  border-radius: 15px;
+  background: #c500ff;
+  border-radius: 0 0 15px 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  width: 100%;
   z-index: 2;
 }
 
@@ -557,7 +642,8 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 25px;
+  margin: 0 0 25px;
+  padding: 30px 0 0;
   letter-spacing: 1px;
 }
 
@@ -577,6 +663,7 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   align-items: center;
   gap: 10px;
   width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .maxa-riksa .card-image-wrapper {
@@ -619,112 +706,8 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   padding: 0;
 }
 
-.maxa-riksa .features-container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.maxa-riksa .features-title {
-	position: relative;
-  display: inline-block;
-  color: #33007B;
-  font-size: 1.7rem;
-  font-weight: 700;
-  line-height: 1.3;
-  text-transform: uppercase;
-  padding: 8px 20px;
-  margin: 0 auto 40px auto;
-  text-align: center;
-  z-index: 1;
-}
-
-.maxa-riksa .features-title::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-    bottom: -10px;
-    left: -5px;
-    right: -5px;
-  background-image: url('../img/zluty-stetec-top-banner.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
-}
-
-.maxa-riksa .features-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.maxa-riksa .features-grid {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.maxa-riksa .feature-card {
-  background: #8B27A9;
-  border: 2px solid #8B27A9;
-  border-radius: 15px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-}
-
-.maxa-riksa .feature-icon-wrapper {
-  flex-shrink: 0;
-  width: 70px;
-  height: 70px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.maxa-riksa .feature-icon {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-.maxa-riksa .feature-content {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.maxa-riksa .feature-heading {
-  font-size: 1.1rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0;
-  color: #ffffff;
-  line-height: 1.2;
-}
-
-.maxa-riksa .feature-text {
-  font-size: 1rem;
-  margin: 0;
-  color: #ffffff;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-.maxa-riksa .feature-highlight {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: #FFB233;
-  margin: 0;
-  text-transform: uppercase;
-  line-height: 1.1;
-}
-
 .maxa-riksa .videos-container {
-  margin: 50px auto 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -735,23 +718,11 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.3;
-  color: #33007B;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
-  margin: 30px 0 60px;
+  margin: 30px 0;
   z-index: 1;
-}
-.maxa-riksa .videos-title::before {
-  content: '';
-  position: absolute;
-  top: -25px;
-    bottom: -25px;
-    left: -20px;
-    right: -20px;
-  background-image: url('../img/zluty-stetec-top-banner.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
 }
 
 .maxa-riksa .videos-grid {
@@ -763,13 +734,13 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 }
 
 .maxa-riksa .video-card {
-  background: #8B27A9;
+  background: #c500ff;
   border-radius: 15px;
   padding: 0 0 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .maxa-riksa .video-wrapper {
@@ -794,7 +765,7 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 .maxa-riksa .video-label {
 	position: relative;
   display: inline-block;
-  color: #33007B;
+  color: #ffffff;
   font-size: 1.1rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -802,18 +773,6 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   border-radius: 4px;
   text-align: center;
   z-index: 1;
-}
-.maxa-riksa .video-label::before {
-  content: '';
-  position: absolute;
-  top: -5px;
-    bottom: -5px;
-    left: -10px;
-    right: -10px;
-  background-image: url('../img/zluty-stetec.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  z-index: -1;
 }
 
 .maxa-riksa .videos-cta-wrapper {
@@ -846,139 +805,112 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
   transform: translateY(2px);
 	box-shadow: 0 2px 0px rgba(0, 0, 0, 0.3);
 }
+.maxa-riksa .video-card-date {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 0;
+    color: #FFB233;
+}
 /* Main end */
 
 /* Footer */
-.maxa-riksa .footer-section {
-  padding: 30px 15px;
-  color: #ffffff;
-  border-top: 0 solid #ffffff2e;
+.maxa-riksa .site-footer {
+	display: block;
+	padding: 3em 1em;
+	margin: 0 auto;
+	max-width: 950px;
+	text-align: center;
 }
-
-.maxa-riksa .footer-container {
-  margin: 0 auto;
+.maxa-riksa .site-footer a {
+	display: inline-block;
 }
-
-.maxa-riksa .footer-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 25px;
-  text-align: center;
-}
-
-.maxa-riksa .footer-logo-wrapper {
-  width: 100px;
-}
-
 .maxa-riksa .footer-logo {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
+	width: 150px;
+	height: auto;
 }
-
-.maxa-riksa .footer-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.maxa-riksa .footer-nav li {
-	display: inline-flex;
-	flex-direction: column;
-	gap: 20px;
-}
-.maxa-riksa .footer-link {
-	position: relative;
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 400;
-}
-.maxa-riksa .footer-link:before {
-	content: '';
-	position: absolute;
+.maxa-riksa .warning-img-mobile {
+	display: block;
+	height: auto;
 	width: 100%;
-	height: 1px;
-	background-color: #ffffff;
-	bottom: 0;
-	left: 0;
-	-webkit-transform-origin: right;
-	-ms-transform-origin: right;
-	transform-origin: right;
-	-webkit-transform: scaleX(0);
-	-ms-transform: scaleX(0);
-	transform: scaleX(0);
-	-webkit-transition: -webkit-transform .3s ease-in-out;
-	transition: -webkit-transform .3s ease-in-out;
-	-o-transition: transform .3s ease-in-out;
-	transition: transform .3s ease-in-out;
-	transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.1;
 }
-.maxa-riksa .footer-link:hover:before {
-	-webkit-transform-origin: left;
-	-ms-transform-origin: left;
-	transform-origin: left;
-	-webkit-transform: scaleX(1);
-	-ms-transform: scaleX(1);
-	transform: scaleX(1);
+.maxa-riksa .warning-img-desktop {
+	display: none;
+	height: 40px;
+	width: auto;
+	font-size: 13px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.6;
 }
-.maxa-riksa .footer-warning {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 20px;
-  width: 100%;
-}
-.maxa-riksa .footer-warning p {
+.maxa-riksa .copyright {
 	font-size: .9rem;
 	font-weight: 400;
+    text-align: center;
 }
-.maxa-riksa .text-warning {
+.maxa-riksa .bingo-preferences-center {
+	color: #ffffff;
+	font-size: 1rem;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 1em 0 0;
+}
+.maxa-riksa .bingo-preferences-center:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.maxa-riksa .site-footer .text-image-inner {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 10px;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding: 0 0 2em;
 }
-.maxa-riksa .warning-badge {
-  width: 45px;
-  height: 45px;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 1rem;
+.maxa-riksa .site-footer .footer-warning {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	gap: 10px;
 }
-.maxa-riksa .warning-text {
-  display: flex;
-  flex-direction: column;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  opacity: 0.85;
+.maxa-riksa .footer-warning img {
+	width: auto;
+	height: 30px;
 }
-.maxa-riksa .warning-highlight {
-  font-weight: 700;
+.maxa-riksa .footer-warning p {
+	color: #ffffff;
+	font-size: .9rem;
+	font-weight: 400;
+	text-align: left;
+	margin: 0;
 }
 
 
 @media (min-width: 580px) and (max-width: 767px) {
-	.maxa-riksa .hero-image-wrapper {
-		position: absolute;
-		bottom: 0;
-		right: 5px;
-		justify-content: flex-end;
-	}
-	.maxa-riksa .hero-img {
-		height: 250px;
-	}
-	.maxa-riksa .hero-content {
-		background: linear-gradient(to right, rgba(51, 0, 123, 0.99) 0%, rgba(51, 0, 123, 0.8) 50%, rgba(51, 0, 123, 0) 100%);
-	}
 	.maxa-riksa .roadshow-card {
 		width: 60%;
 	}
@@ -1006,17 +938,46 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 		scroll-margin-top: 5em;
 	}
 	.maxa-riksa .hero-image-wrapper {
-		position: absolute;
-		bottom: 0;
-		right: 5px;
 		justify-content: flex-end;
 	}
+	.maxa-riksa .hero-img-2 {
+		width: 350px;
+	}
+	.maxa-riksa .hero-img-1 {
+	width: 240px;
+}
 	.maxa-riksa .hero-content {
-		background: linear-gradient(to right, rgba(51, 0, 123, 0.99) 0%, rgba(51, 0, 123, 0.8) 10%, rgba(51, 0, 123, 0) 100%);
-	}
-	.maxa-riksa .hero-img {
-		height: 350px;
-	}
+  padding: 80px 0 0 20px;
+}
+	.maxa-riksa .tour-section {
+        padding: 0;
+    }
+
+    .maxa-riksa .riksha-banner-container {
+        flex-direction: row;
+    }
+
+    .maxa-riksa .riksha-banner-image {
+        width: 55%;
+    }
+
+    .maxa-riksa .riksha-banner-content {
+        width: 45%;
+        padding: 40px;
+    }
+
+    .maxa-riksa .riksha-banner-icon-wrap {
+        width: 90px;
+        height: 90px;
+    }
+
+    .maxa-riksa .riksha-banner-item p {
+        font-size: 1.4rem;
+    }
+    
+    .maxa-riksa .tour-section .title-h2 {
+        font-size: 2.5rem;
+    }
 	.maxa-riksa .roadshow-grid {
 		flex-direction: row;
 		justify-content: center;
@@ -1024,7 +985,6 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 		padding: 0;
 	}
 	.maxa-riksa .roadshow-title {
-		margin-bottom: 35px;
 		font-size: 2.5rem;
 	}
 	.maxa-riksa .roadshow-card {
@@ -1035,6 +995,7 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 		padding: 0;
 		gap: 15px;
 		max-width: 130px;
+		border: 1px solid #000;
 	}
 	.maxa-riksa .card-image-wrapper {
 		border-radius: 15px 15px 0 0;
@@ -1044,50 +1005,12 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 	.maxa-riksa .card-content {
 		align-items: center;
 	}
-	.maxa-riksa.features-section {
-		padding: 60px 20px;
-	}
-	.maxa-riksa .features-title {
-		margin: 20px 0 50px;
-	}
-	.maxa-riksa .features-grid {
-		flex-direction: row;
-		justify-content: space-between;
-		gap: 30px;
-	}
-	.maxa-riksa .feature-card {
-		flex: 1;
-		gap: 30px;
-		max-width: 500px;
-		padding: 25px 30px;
-	}
-	.maxa-riksa .feature-icon-wrapper {
-		width: 90px;
-		height: 90px;
-	}
-	.maxa-riksa .feature-heading {
-		font-size: 1.25rem;
-	}
-	.maxa-riksa .feature-highlight {
-		font-size: 1.6rem;
-	}
+
 	.maxa-riksa.videos-section {
 		padding: 60px 20px;
 	}
 	.maxa-riksa .videos-title {
 		margin: 40px 0 65px;
-	}
-	.maxa-riksa .videos-title::before {
-		content: '';
-		position: absolute;
-		top: -25px;
-		bottom: -25px;
-		left: -50px;
-		right: -55px;
-		background-image: url('../img/zluty-stetec-top-banner.png');
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		z-index: -1;
 	}
 	.maxa-riksa .video-card {
 		display: flex;
@@ -1103,6 +1026,12 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 	.maxa-riksa .video-label {
 		font-size: 1rem;
 		padding: 4px 12px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.maxa-riksa .card-city {
+		font-size: .7rem;
 	}
 }
 
@@ -1136,37 +1065,13 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 		display: none;
 	}
 	.maxa-riksa .roadshow-container {
-		margin: -20px auto 0;
-	}
-	.maxa-riksa .hero-title::before {
-		content: '';
-		position: absolute;
-		top: -20px;
-		bottom: -5px;
-		left: -15px;
-		right: -30px;
-		background-image: url('../img/zluty-stetec-top-banner.png');
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		z-index: -1;
+		margin: 0 auto;
 	}
 	.maxa-riksa .card-city {
-		font-size: 1.1rem;
+		font-size: .7rem;
 	}
 	.maxa-riksa .card-date {
 		padding: 0 0 10px;
-	}
-	.maxa-riksa .features-title::before {
-		content: '';
-		position: absolute;
-		top: -20px;
-		bottom: -20px;
-		left: -30px;
-		right: -30px;
-		background-image: url('../img/zluty-stetec-top-banner.png');
-		background-size: 100% 100%;
-		background-repeat: no-repeat;
-		z-index: -1;
 	}
 	.maxa-riksa .videos-container {
 		margin: 0 auto;
@@ -1175,12 +1080,6 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 		flex-direction: row;
 		gap: 35px;
 	}
-	.maxa-riksa .hero-img {
-		height: 450px;
-	}
-	.maxa-riksa .hero-content {
-		background: linear-gradient(to right, rgba(51, 0, 123, 0.99) 0%, rgba(51, 0, 123, 0.8) 50%, rgba(51, 0, 123, 0) 100%);
-	}
 	.maxa-riksa .roadshow-card {
 		width: 100%;
 		max-width: 180px;
@@ -1188,16 +1087,24 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 
 	.maxa-riksa .hero-container {
 		flex-direction: row;
-		justify-content: space-between;
-		align-items: center;
-		gap: 40px;
+		justify-content: center;
+		align-items: flex-end;
+		gap: 100px;
 	}
 
 	.maxa-riksa .hero-content {
-		padding: 50px 0 50px 50px;
+		padding: 0;
 		align-items: flex-start;
 		max-width: 550px;
 	}
+
+	.maxa-riksa .hero-img-1 {
+	width: 400px;
+	margin: -35px 0 0;
+}
+.maxa-riksa .hero-img-2 {
+	width: 470px;
+}
 
 	.maxa-riksa .hero-title {
 		font-size: 3.5rem;
@@ -1215,17 +1122,20 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 	.maxa-riksa .navigation-wrapper-desktop .navigation-modify-container {
 		gap: 40px;
 	}
-	.maxa-riksa .features-title {
-		font-size: 2.5rem;
-		margin: 100px 0 80px;
-	}
 	.maxa-riksa .videos-title {
-		margin: 100px 0 90px;
+		margin: 30px 0 70px;
 		font-size: 2.5rem;
 	}
+	.maxa-riksa .riksha-banner-section .riksha-banner-title {
+    font-size: 2.5rem;
+    margin: 30px 0 70px;
+  }
 	.maxa-riksa .videos-cta-wrapper {
 		margin: 20px 0 80px;
 	}
+	.maxa-riksa .tour-section .tour-section-inner {
+    padding: 30px;
+}
 	.maxa-riksa.footer-section {
 		padding: 40px 20px 50px 20px;
 	}
@@ -1273,6 +1183,15 @@ background: linear-gradient(0deg,rgba(0, 204, 204, 1) 0%, rgba(96, 0, 191, 1) 40
 	.maxa-riksa .hero-container.container {
 		width: 1200px;
 	}
+	.maxa-riksa .tour-container {
+	width: 1200px;
+}
+.maxa-riksa .card-city {
+		font-size: 1.1rem;
+	}
+.maxa-riksa .roadshow-container {
+	width: 1200px;
+}
 	.maxa-riksa .video-card {
 		display: flex;
 		flex-direction: column;
