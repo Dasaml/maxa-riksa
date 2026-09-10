@@ -93,6 +93,9 @@ body.maxa-riksa {
 	outline: none;
 	color: #ffffff;
 }
+.maxa-riksa iframe {
+  border: none;
+}
 .maxa-riksa .underline {
 	text-decoration: underline;
 }
@@ -211,7 +214,7 @@ body.maxa-riksa {
 	transition: transform 0.2s;
 	transition: transform 0.2s, -webkit-transform 0.2s;
 	z-index: 99;
-	background: #502983;
+	background: #6000bf;
 	color: #fff;
 	list-style: none;
 	padding-top: 4rem;
@@ -396,24 +399,24 @@ body.maxa-riksa {
 
 /* --- HERO SECTION --- */
 .maxa-riksa .hero-banner {
-  position: relative;
-  color: #ffffff;
-  padding: 0;
+	position: relative;
+	color: #ffffff;
+	padding: 0;
 }
 
 .maxa-riksa .hero-container {
-	background-image: url('../img/pozadi-top-benner.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: center;
-  text-align: center;
-  gap: 20px;
-  position: relative;
+	background-image: url('../img/pozadi-top-benner.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: center;
+	gap: 15px;
+	position: relative;
 }
 
 .maxa-riksa .hero-container.container {
@@ -423,75 +426,75 @@ body.maxa-riksa {
 
 .maxa-riksa .hero-content {
 	position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 30px 0 0 10px;
-  z-index: 2;
-  box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0;
+	z-index: 2;
+	box-sizing: border-box;
 }
 
 .maxa-riksa .hero-title {
-  font-size: 2.3rem;
-  line-height: 1.1;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0 0 30px;
-  padding: 20px;
-  display: inline-block;
-  transform: rotate(-2deg);
-  position: relative;
-  z-index: 1;
+	font-size: 2.3rem;
+	line-height: 1.1;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 0 30px;
+	padding: 20px;
+	display: inline-block;
+	transform: rotate(-2deg);
+	position: relative;
+	z-index: 1;
 }
 
 .maxa-riksa .title-top {
-  display: block;
-  color: #33007B;
-  transform: rotate(-2deg);
+	display: block;
+	color: #33007B;
+	transform: rotate(-2deg);
 }
 
 .maxa-riksa .title-highlight {
-  display: inline-block;
-  color: #33007B;
-  padding: 0;
-  transform: rotate(-2deg);
-  margin-top: 5px;
+	display: inline-block;
+	color: #33007B;
+	padding: 0;
+	transform: rotate(-2deg);
+	margin-top: 5px;
 }
 
 .maxa-riksa .hero-subtitle {
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 1.3;
-  letter-spacing: 1px;
-  margin: 0 0 12px 0;
-  color: #ffffff;
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 1.3;
+	letter-spacing: 1px;
+	margin: 0 0 12px 0;
+	color: #ffffff;
 }
 
 .maxa-riksa .hero-text {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 25px;
-  max-width: 300px;
+	font-size: 1rem;
+	line-height: 1.6;
+	margin-bottom: 25px;
+	max-width: 300px;
 }
 
 .maxa-riksa .hero-image-wrapper {
-		display: flex;
-		justify-content: flex-end;
-	}
+	display: flex;
+	justify-content: flex-end;
+}
 .maxa-riksa .hero-img-1,
 .maxa-riksa .hero-img-2 {
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
+	width: 100%;
+	height: auto;
+	display: block;
+	object-fit: contain;
 }
 .maxa-riksa .hero-img-1 {
-	width: 120px;
+	width: 140px;
 	margin: 0;
 }
 .maxa-riksa .hero-img-2 {
-	width: 165px;
+	width: 160px;
 }
 
 .maxa-riksa .tour-container {
@@ -499,8 +502,8 @@ body.maxa-riksa {
 	width: 100%;
 }
 .maxa-riksa .tour-section {
-    padding: 0;
-    text-align: center;
+	padding: 0;
+	text-align: center;
 }
 
 .maxa-riksa .tour-section .tour-section-inner {
@@ -508,36 +511,36 @@ body.maxa-riksa {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    color: #33007B;
-    padding: 40px 15px;
+	color: #33007B;
+	padding: 40px 15px 30px;
 }
 
 .maxa-riksa .tour-section .title-h2 {
-    color: #6000BF;
-    font-size: 1.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 25px;
-    line-height: 1.2;
+	color: #6000BF;
+	font-size: 1.7rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	line-height: 1.2;
 }
 
 .maxa-riksa .tour-section p {
-		text-align: center;
-    color: #6000BF;
-    font-size: 1rem;
-    font-weight: 400;
-    max-width: 900px;
+	text-align: center;
+	color: #6000BF;
+	font-size: 1rem;
+	font-weight: 400;
+	max-width: 900px;
 }
 
 .maxa-riksa .tour-section a {
-    color: #6000BF;
-    text-decoration: underline;
-    font-weight: 400;
-    word-break: break-word;
+	color: #6000BF;
+	text-decoration: underline;
+	font-weight: 400;
+	word-break: break-word;
 }
 
 .maxa-riksa .tour-section a:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 
 .maxa-riksa .tour-section .tour-content-title {
@@ -547,242 +550,240 @@ body.maxa-riksa {
 }
 
 .maxa-riksa .riksha-banner-section {
-    padding: 40px 0;
-    background-color: transparent;
+	padding: 40px 0;
+	background-color: transparent;
 }
 
 .maxa-riksa .riksha-banner-container {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(135deg, #33007B 0%, #c500ff 100%);
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(135deg, #33007B 0%, #c500ff 100%);
+	border-radius: 30px;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .maxa-riksa .riksha-banner-section .riksha-banner-title {
 	position: relative;
-    font-size: 1.7rem;
-    font-weight: 700;
-    line-height: 1.3;
-    color: #ffffff;
-    text-transform: uppercase;
-    text-align: center;
-    margin: 0 0 30px;
-    z-index: 1;
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 30px;
+	z-index: 1;
 }
 
 .maxa-riksa .riksha-banner-image {
-    width: 100%;
+	width: 100%;
 }
 
 .maxa-riksa .riksha-banner-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+	width: 480px;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
 
 .maxa-riksa .riksha-banner-content {
-    padding: 30px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    justify-content: center;
+	padding: 30px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	justify-content: center;
 }
 
 .maxa-riksa .riksha-banner-item {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
 }
 
 .maxa-riksa .riksha-banner-icon-wrap {
-    flex-shrink: 0;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 1px solid #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(51, 0, 123, 0.4);
+	flex-shrink: 0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .maxa-riksa .riksha-banner-icon-wrap img {
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
 }
 
 .maxa-riksa .riksha-banner-item p {
-    color: #ffffff;
-    font-size: 1.2rem;
-    font-weight: 700;
-    line-height: 1.3;
-    margin: 0;
+	color: #ffffff;
+	font-size: 1.1rem;
+	font-weight: 700;
+	line-height: 1.3;
+	margin: 0;
 }
 
 .maxa-riksa .roadshow-container {
-  margin: 0 auto 30px;
-  position: relative;
-  padding: 0 0 30px;
-  background: #c500ff;
-  border-radius: 0 0 15px 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-  width: 100%;
-  z-index: 2;
+	margin: 0 auto 30px;
+	position: relative;
+	padding: 0 0 40px;
+	background: #c500ff;
+	border-radius: 0 0 15px 15px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	z-index: 2;
 }
 
 .maxa-riksa .roadshow-title {
-  font-size: 1.7rem;
-  line-height: 1.3;
-  color: #ffffff;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 0 0 25px;
-  padding: 30px 0 0;
-  letter-spacing: 1px;
+	font-size: 1.7rem;
+	line-height: 1.3;
+	color: #ffffff;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 25px;
+	padding: 30px 0 0;
+	letter-spacing: 1px;
 }
 
 .maxa-riksa .roadshow-grid {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 15px;
-  padding: 0 10px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 15px;
+	padding: 0 10px;
 }
 
 .maxa-riksa .roadshow-card {
 	background-color: #6000BF;
-  border-radius: 15px;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+	border-radius: 15px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	width: 100%;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .maxa-riksa .card-image-wrapper {
-  flex-shrink: 0;
-  width: 90px;
-  height: 80px;
-  border-radius: 15px 0 0 15px;
-  overflow: hidden;
+	flex-shrink: 0;
+	width: 90px;
+	height: 80px;
+	border-radius: 15px 0 0 15px;
+	overflow: hidden;
 }
 
 .maxa-riksa .card-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
 }
 
 .maxa-riksa .card-content {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .maxa-riksa .card-city {
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0;
-  color: #ffffff;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+	color: #ffffff;
 }
 
 .maxa-riksa .card-date {
-  font-size: 1rem;
-  font-weight: 700;
-  margin: 0;
-  color: #FFB233;
-  display: flex;
-  align-items: flex-start;
-  gap: 5px;
-  padding: 0;
+	font-size: 1rem;
+	font-weight: 700;
+	margin: 0;
+	color: #FFB233;
+	display: flex;
+	align-items: flex-start;
+	gap: 5px;
+	padding: 0;
 }
 
 .maxa-riksa .videos-container {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .maxa-riksa .videos-title {
 	position: relative;
-  font-size: 1.7rem;
-  font-weight: 700;
-  line-height: 1.3;
-  color: #ffffff;
-  text-transform: uppercase;
-  text-align: center;
-  margin: 30px 0;
-  z-index: 1;
+	font-size: 1.7rem;
+	font-weight: 700;
+	line-height: 1.3;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 30px 0;
+	z-index: 1;
 }
 
 .maxa-riksa .videos-grid {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-bottom: 35px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 35px;
 }
 
 .maxa-riksa .video-card {
-  background: #c500ff;
-  border-radius: 15px;
-  padding: 0 0 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+	background: #c500ff;
+	border-radius: 15px;
+	padding: 0 0 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .maxa-riksa .video-wrapper {
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
-  height: 0;
-  border-radius: 15px 15px 0 0;
-  overflow: hidden;
-  margin-bottom: 15px;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	height: 0;
+	border-radius: 15px 15px 0 0;
+	overflow: hidden;
+	margin-bottom: 15px;
 }
 
 .maxa-riksa .video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 
 .maxa-riksa .video-label {
 	position: relative;
-  display: inline-block;
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 6px 16px;
-  border-radius: 4px;
-  text-align: center;
-  z-index: 1;
+	display: inline-block;
+	color: #ffffff;
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 6px 16px;
+	border-radius: 4px;
+	text-align: center;
+	z-index: 1;
 }
 
 .maxa-riksa .videos-cta-wrapper {
-  text-align: center;
-  width: 100%;
-  margin: 0 0 40px;
+	text-align: center;
+	width: 100%;
+	margin: 0 0 40px;
 }
 
 .maxa-riksa .videos-cta-btn {
- background-color: #FFB233;
+	background-color: #FFB233;
 	border-width: 0;
 	min-width: 70px;
 	border-radius: 38px;
@@ -802,17 +803,50 @@ body.maxa-riksa {
 }
 
 .maxa-riksa .videos-cta-btn:hover {
-  transform: translateY(2px);
+	transform: translateY(2px);
 	box-shadow: 0 2px 0px rgba(0, 0, 0, 0.3);
 }
 .maxa-riksa .video-card-date {
 	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 5px;
-    margin: 0;
-    color: #FFB233;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 5px;
+	margin: 0;
+	color: #FFB233;
+}
+.maxa-riksa .riksha-one-video-section {
+	width: 100%;
+	position: relative;
+	padding: 30px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+.maxa-riksa .riksha-one-video-section .video-container {
+	position: relative;
+	max-width: 800px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+.maxa-riksa .riksha-one-video-section .video-inner {
+	position: relative;
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	background-color: #000;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.maxa-riksa .riksha-one-video-section .video-inner iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
 }
 /* Main end */
 
@@ -852,7 +886,7 @@ body.maxa-riksa {
 .maxa-riksa .copyright {
 	font-size: .9rem;
 	font-weight: 400;
-    text-align: center;
+	text-align: center;
 }
 .maxa-riksa .bingo-preferences-center {
 	color: #ffffff;
@@ -909,6 +943,13 @@ body.maxa-riksa {
 	margin: 0;
 }
 
+@media (min-width: 500px) and (max-width: 579px) {
+	.maxa-riksa .riksha-banner-image img {
+		width: 720px;
+		height: 100%;
+	}
+}
+
 
 @media (min-width: 580px) and (max-width: 767px) {
 	.maxa-riksa .roadshow-card {
@@ -925,6 +966,18 @@ body.maxa-riksa {
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
+	.maxa-riksa .riksha-banner-image img {
+		width: 720px;
+		height: 100%;
+	}
+	.maxa-riksa .riksha-banner-item {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+	.maxa-riksa .riksha-banner-item p {
+			font-size: 1.2rem;
+	}
 }
 
 @media (min-width: 768px) {
@@ -937,6 +990,10 @@ body.maxa-riksa {
 	.maxa-riksa .section {
 		scroll-margin-top: 5em;
 	}
+	.maxa-riksa .hero-container {
+		align-items: flex-start;
+		gap: 20px;
+	}
 	.maxa-riksa .hero-image-wrapper {
 		justify-content: flex-end;
 	}
@@ -944,40 +1001,28 @@ body.maxa-riksa {
 		width: 350px;
 	}
 	.maxa-riksa .hero-img-1 {
-	width: 240px;
-}
+		width: 320px;
+	}
 	.maxa-riksa .hero-content {
-  padding: 80px 0 0 20px;
-}
+  	padding: 0 0 0 20px;
+	}
 	.maxa-riksa .tour-section {
         padding: 0;
-    }
-
-    .maxa-riksa .riksha-banner-container {
-        flex-direction: row;
-    }
-
-    .maxa-riksa .riksha-banner-image {
-        width: 55%;
-    }
-
-    .maxa-riksa .riksha-banner-content {
-        width: 45%;
-        padding: 40px;
-    }
-
-    .maxa-riksa .riksha-banner-icon-wrap {
-        width: 90px;
-        height: 90px;
-    }
-
-    .maxa-riksa .riksha-banner-item p {
-        font-size: 1.4rem;
-    }
-    
-    .maxa-riksa .tour-section .title-h2 {
-        font-size: 2.5rem;
-    }
+  }
+	.maxa-riksa .riksha-banner-content {
+		width: 45%;
+		padding: 25px 30px;
+	}
+	.maxa-riksa .riksha-banner-icon-wrap {
+		width: 80px;
+		height: 80px;
+	}
+	.maxa-riksa .riksha-banner-item p {
+		font-size: 1.3rem;
+	}
+	.maxa-riksa .tour-section .title-h2 {
+		font-size: 2.5rem;
+	}
 	.maxa-riksa .roadshow-grid {
 		flex-direction: row;
 		justify-content: center;
@@ -995,7 +1040,6 @@ body.maxa-riksa {
 		padding: 0;
 		gap: 15px;
 		max-width: 130px;
-		border: 1px solid #000;
 	}
 	.maxa-riksa .card-image-wrapper {
 		border-radius: 15px 15px 0 0;
@@ -1032,6 +1076,10 @@ body.maxa-riksa {
 @media (min-width: 768px) and (max-width: 991px) {
 	.maxa-riksa .card-city {
 		font-size: .7rem;
+	}
+	.maxa-riksa .riksha-banner-image img {
+		width: 750px;
+		height: 100%;
 	}
 }
 
@@ -1088,7 +1136,7 @@ body.maxa-riksa {
 	.maxa-riksa .hero-container {
 		flex-direction: row;
 		justify-content: center;
-		align-items: flex-end;
+		align-items: flex-start;
 		gap: 100px;
 	}
 
@@ -1099,13 +1147,12 @@ body.maxa-riksa {
 	}
 
 	.maxa-riksa .hero-img-1 {
-	width: 400px;
-	margin: -35px 0 0;
-}
-.maxa-riksa .hero-img-2 {
-	width: 470px;
-}
-
+		width: 435px;
+		margin: -35px 0 0;
+	}
+	.maxa-riksa .hero-img-2 {
+		width: 470px;
+	}
 	.maxa-riksa .hero-title {
 		font-size: 3.5rem;
 	}
@@ -1117,25 +1164,39 @@ body.maxa-riksa {
 	.maxa-riksa .hero-text {
 		font-size: 1.1rem;
 	}
+	.maxa-riksa .riksha-banner-container {
+		flex-direction: row;
+	}
+	.maxa-riksa .riksha-banner-image {
+		max-width: 760px;
+	}
+	.maxa-riksa .riksha-banner-image img {
+		width: 100%;
+		height: 100%;
+		max-width: 760px;
+	}
 }
 @media(min-width: 1024px) {
 	.maxa-riksa .navigation-wrapper-desktop .navigation-modify-container {
 		gap: 40px;
 	}
 	.maxa-riksa .videos-title {
-		margin: 30px 0 70px;
+		margin: 30px 0 50px;
 		font-size: 2.5rem;
 	}
+	.maxa-riksa .roadshow-title {
+		padding: 40px 0 10px;
+	}
 	.maxa-riksa .riksha-banner-section .riksha-banner-title {
-    font-size: 2.5rem;
-    margin: 30px 0 70px;
-  }
+		font-size: 2.5rem;
+		margin: 30px 0 50px;
+	}
 	.maxa-riksa .videos-cta-wrapper {
 		margin: 20px 0 80px;
 	}
 	.maxa-riksa .tour-section .tour-section-inner {
-    padding: 30px;
-}
+		padding: 30px;
+	}
 	.maxa-riksa.footer-section {
 		padding: 40px 20px 50px 20px;
 	}
@@ -1184,14 +1245,14 @@ body.maxa-riksa {
 		width: 1200px;
 	}
 	.maxa-riksa .tour-container {
-	width: 1200px;
-}
-.maxa-riksa .card-city {
+		width: 1200px;
+	}
+	.maxa-riksa .card-city {
 		font-size: 1.1rem;
 	}
-.maxa-riksa .roadshow-container {
-	width: 1200px;
-}
+	.maxa-riksa .roadshow-container {
+		width: 1200px;
+	}
 	.maxa-riksa .video-card {
 		display: flex;
 		flex-direction: column;
